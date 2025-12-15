@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Michael Roberts' work portfolio</title>
+        <link rel="stylesheet" href="/index.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode,light_mode&display=block" />
+        <link rel="stylesheet" href="wide.css" media="screen and (width > 60rem)" />
+        <link rel="stylesheet" href="tall.css" media="screen and (width <= 60rem)" />
+    </head>
+    <body>
+        <style>
+        .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        font-size: 40px; 
+        }
+        </style>
+        <div id="layout-main">
+            <header>
+                <div id="topBar">
+                    <button class="material-symbols-outlined" id="theme-toggle" type="button">dark_mode</button>
+                    <!--<div id="theme-dropdown">
+                        <ul>
+                            <li>
+                                <button id="theme-light" type="button">Light Mode</button>
+                            </li>
+                            <li>
+                                <button id="theme-dark" type="button">Dark Mode</button>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+                <nav>
+                    <h3><a href="#">Home Page</a></li></h3>
+                    <input type="checkbox" id="navExpand"/>
+                    <div>
+                        <label for="navExpand">
+                        <h3>Project Pages</h3>
+                            <ul>
+                                <li><a href="/html/android-flashcard.html">Android Flashcard App</a></li>
+                                <li><a href="/html/react-minesweeper.html">React Minesweeper</a></li>
+                                <li><a href="/html/java-labyrinth.html">Java Labyrinth Game</a></li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="navExpand">
+                        <h3>External Links</h3>
+                            <ul>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/michael-roberts-2138722a7/">Linkedin</a></li>
+                                <li><a target="_blank" href="https://github.com/Necro2772">Github</a></li>
+                            </ul>
+                        </label>
+                    </div>
+                </nav>
+            </header>
+            <div id="layout-body">
+                <h1>Michael Roberts' work portfolio</h1>
+                <div id="layout-intro">
+                    <h2>Introduction</h2>
+                    <p>Recent Computer Science graduate from University of California: San Diego who has just moved to Finland from the United States. Has experience in Agile development, machine learning, and web development, and is strongest with Java and Python.</p>
+                </div>
+                <div id="layout-education">
+                    <h2>Education</h2>
+                    <h3>University of California: San Diego</h3>
+                    <p><i>BS in Computer Science</i> - GPA: 3.89 / 4.00</p>
+                    <p>Graduated: 12/2023</p>
+                    <aside>Relevant Coursework: Software Engineering, Computer Networks, Intro to Machine Learning, AI: Search and Reasoning</aside>
+                </div>
+                <div id="layout-skills"> 
+                    <h2>Skills</h2>
+                    <table>
+                        <caption>Skills</caption>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Languages / OS</th>
+                                <td>Java, Python, C/C++, HTML, CSS, JavaScript, MySQL, Android, UNIX</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tools</th>
+                                <td>Git, Github, JUnit, Scikit-learn ML libraries, MVVM, HTTP, REST</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Techniques</th>
+                                <td>Agile software practices, Continuous Integration, Progressive Enhancement</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Languages</th>
+                                <td>English: Native, Finnish: Beginner, Japanese: Intermediate</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h2>Contact Information</h2>
+            <p>Email (Preferred): <a href="mailto:michael.peilun.roberts@gmail.com">michael.peilun.roberts@gmail.com</a></p>
+            <p>Phone number: <a href="tel:+3580468006450">(+358) 46 800 6450</a></p>
+        </footer>
+        <script src="/js/main.js" defer></script>
+    </body>
+</html>
